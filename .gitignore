@@ -1,1 +1,317 @@
 node_modules
+# ========================
+# Operating System Files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDE & Editor Files
+# ========================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/**/*.json
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# WebStorm
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ========================
+# Node.js / NestJS
+# ========================
+# Dependencies
+node_modules/
+.npm/
+.yarn/
+.yarn/unplugged/
+.yarn/install-state.gz
+.yarn/cache/
+.yarn/build-state.yml
+.yarn/versions/
+.pnp.*
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Production
+.env.production.local
+
+# Misc
+*.tgz
+.yarn-integrity
+
+# ========================
+# Environment Variables
+# ========================
+# NEVER commit .env files!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Exception: Keep example files
+!.env.example
+!.env.sample
+!.env.template
+
+# ========================
+# TypeScript & Compilation
+# ========================
+*.tsbuildinfo
+*.tsbuildinfo.json
+tsconfig.tsbuildinfo
+
+# ========================
+# Testing
+# ========================
+# Jest
+jest.config.js
+/junit.xml
+/coverage/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/fixtures/example.json
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# ========================
+# MongoDB & Database
+# ========================
+# MongoDB data files
+data/
+*.ns
+*.0
+*.1
+*.2
+mongod.lock
+WiredTiger*
+collection-*.wt
+diagnostic.data/
+*.mdb
+*.ldb
+
+# Redis
+dump.rdb
+redis-data/
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================
+# Uploads & Temporary Files
+# ========================
+uploads/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Profile pictures
+uploads/profile-pictures/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Application logs
+application.log
+error.log
+access.log
+
+# ========================
+# SSL/TLS Certificates
+# ========================
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.cer
+*.der
+
+# ========================
+# Docker & Containerization
+# ========================
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+.docker.env
+
+# Kubernetes
+k8s/
+
+# ========================
+# Documentation
+# ========================
+# Generated documentation
+docs/
+storybook-static/
+typedoc/
+
+# ========================
+# Package Managers
+# ========================
+# Yarn v2
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# pnpm
+node_modules/.pnpm/
+.pnpm-store/
+
+# ========================
+# OS Specific
+# ========================
+# Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+
+# ========================
+# Project Specific
+# ========================
+# Finance Manager specific
+finance-reports/
+exports/
+backups/
+
+# API Documentation
+swagger.json
+openapi.json
+
+# ========================
+# Build Tools
+# ========================
+# Parcel
+.parcel-cache/
+
+# Webpack
+.webpack/
+
+# Rollup
+.rollup.cache/
+
+# ========================
+# Misc
+# ========================
+# Secret files
+secrets.yaml
+secrets.yml
+config/secret.ts
+config/secret.js
+
+# Session files
+session/
+
+# Cache
+.cache/
+
+# Lock files (except package managers)
+*.lock
+!package-lock.json
+!yarn.lock
+!pnpm-lock.yaml
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+
+# ========================
+# Performance & Debug
+# ========================
+# Chrome DevTools
+*.cpuprofile
+*.heapsnapshot
+
+# Application Insights
+ApplicationInsights.xml
+
+# ========================
+# Git
+# ========================
+# Git history files
+.git-rewrite/
+.git-blame-ignore-revs
+
+# ========================
+# Development
+# ========================
+# Local development overrides
+*.local
+*.development
+*.dev
